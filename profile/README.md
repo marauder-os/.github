@@ -35,11 +35,11 @@ Operational procedures are versioned and stored as first-class memory — the sy
 
 ```
               ┌──────────────────┐
-              │   Operator HUD    │   ← visor (native, event-driven)
+              │   Operator HUD   │   ← visor (native, event-driven)
               └────────▲─────────┘
                        │ MQTT
    ┌───────────────────┴────────────────────┐
-   │            marauder-os runtime          │
+   │            marauder-os runtime         │
    │   ┌──────────┐  ┌────────┐  ┌────────┐ │
    │   │  Memory  │  │ Index  │  │  TTS   │ │
    │   │  (EEMS)  │  │ (sem)  │  │(piper) │ │
@@ -50,7 +50,7 @@ Operational procedures are versioned and stored as first-class memory — the sy
    └───────────────────▲────────────────────┘
                        │ MCP / CLI
               ┌────────┴─────────┐
-              │   LLM harness     │   ← Claude Code (today)
+              │   LLM harness    │   ← Claude Code (today)
               └──────────────────┘
 ```
 
